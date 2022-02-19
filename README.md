@@ -160,3 +160,17 @@ npm i @swc/core @swc/jest -D
 ```bash
 npm i @testing-library/react @testing-library/jest-dom @testing-library/user-event -D
 ```
+
+- Intalar Lodash
+
+```bash
+npm i --save-dev lodash.merge
+#AND
+npm i --save-dev @types/lodash.merge
+```
+
+- NextJS themes
+
+```bash
+npm i next-themes
+```
