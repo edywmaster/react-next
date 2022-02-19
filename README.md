@@ -168,3 +168,13 @@ npm i --save-dev lodash.merge
 #AND
 npm i --save-dev @types/lodash.merge
 ```
+
+- Instalar StoryBooks
+
+```bash
+npx sb init --builder webpack5
+```
+
+```bash
+ npm install --save-dev webpack webpack-dev-server webpack-cli
+```
