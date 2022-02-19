@@ -168,9 +168,3 @@ npm i --save-dev lodash.merge
 #AND
 npm i --save-dev @types/lodash.merge
 ```
-
-- NextJS themes
-
-```bash
-npm i next-themes
-```
