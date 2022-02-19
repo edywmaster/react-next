@@ -5,7 +5,18 @@
     "node": true,
     "jest": true
   },
-  "extends": ["plugin:react/recommended", "google", "prettier"],
+  "settings": {
+    "react": {
+      "version": "detect" // React version. "detect" automatically picks the version you have installed.
+    }
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "google",
+    "prettier",
+    "plugin:prettier/recommended",
+    "eslint:recommended"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -19,6 +30,8 @@
     "prettier/prettier": "error",
     "space-before-function-paren": "off",
     "react/prop-types": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "require-jsdoc": [
       "error",
       {
