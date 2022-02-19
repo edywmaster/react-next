@@ -15,8 +15,7 @@
     "google",
     "prettier",
     "plugin:prettier/recommended",
-    "eslint:recommended",
-    "plugin:storybook/recommended"
+    "eslint:recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {

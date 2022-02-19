@@ -61,6 +61,7 @@ export const {
       ...orangeA,
 
       // Semantic colors
+      bgTheme: '$slate1',
       hiContrast: '$slate12',
       loContrast: 'white',
       canvas: 'hsl(0 0% 93%)',
@@ -202,7 +203,10 @@ export const darkTheme = createTheme('dark-theme', {
     ...orangeDark,
     ...orangeDarkA,
 
+    bgRocketseat: '#121214',
+
     // Semantic colors
+    bgTheme: '$bgRocketseat',
     hiContrast: '$slate12',
     loContrast: '$slate1',
     canvas: 'hsl(0 0% 15%)',
